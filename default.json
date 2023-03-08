@@ -26,5 +26,4 @@
     "dependencies", "renovatebot"
   ],
   "reviewers": ["team:armor-engineering"],
-  "schedule": ["every 2 months on the first day of the month"]
 }
