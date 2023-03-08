@@ -1,0 +1,30 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base"
+  ],
+  "dependencyDashboard": true,
+  "prHourlyLimit": 20,
+  "packageRules": [
+    {
+       "matchPackagePatterns": ["*"],
+       "matchUpdateTypes": [
+         "minor", 
+         "patch"
+       ],
+       "groupName": "all non-major dependencies",
+       "groupSlug": "all-minor-patch"
+    },
+    {
+       "matchPackagePatterns": ["*"],
+       "matchUpdateTypes": ["major"],
+       "groupName": "all major dependencies",
+       "groupSlug": "all-major"
+    }
+  ],
+  "labels": [
+    "dependencies", "renovatebot"
+  ],
+  "reviewers": ["team:armor-engineering"],
+  "schedule": ["every 2 months on the first day of the month"]
+}
