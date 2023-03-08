@@ -19,7 +19,6 @@
        "matchPackagePatterns": ["*"],
        "matchUpdateTypes": ["major"],
        "groupName": "all major dependencies",
-       "groupSlug": "all-major"
     }
   ],
   "labels": [
