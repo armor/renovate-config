@@ -4,6 +4,7 @@
     "config:base"
   ],
   "dependencyDashboard": true,
+  "timezone": "US/Central",
   "prHourlyLimit": 20,
   "packageRules": [
     {
