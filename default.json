@@ -19,9 +19,9 @@
     {
        "matchPackagePatterns": ["*"],
        "matchUpdateTypes": ["major"],
-       "groupName": "all major dependencies",
+       "groupName": "all major dependencies"
     }
   ],
   "schedule": ["every 2 months on the first day of the month"],
-  "reviewers": ["team:armor-engineering"],
+  "reviewers": ["team:armor-engineering"]
 }
